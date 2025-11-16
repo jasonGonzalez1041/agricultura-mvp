@@ -1,0 +1,136 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+*/dist/
+*/build/
+*/.next/
+*/out/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+*/.env
+*/.env.local
+*/.env.production
+*/.env.development
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*/logs/
+*/*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*/coverage/
+
+# NYC test coverage
+.nyc_output
+
+# Dependency directories
+*/node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# Next.js build output
+.next
+*/out
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+tmp/
+temp/
+
+# Database files
+*.sqlite
+*.db
+
+# Linux system directories (exclude from repo)
+/bin/
+/boot/
+/dev/
+/etc/
+/home/
+/lib/
+/lib64/
+/media/
+/mnt/
+/opt/
+/proc/
+/root/
+/run/
+/sbin/
+/srv/
+/sys/
+/tmp/
+/usr/
+/var/
+/snap/
+/lost+found/
+/backup/
+/bin.usr-is-merged/
+/lib.usr-is-merged/
+/sbin.usr-is-merged/
+
+# Keep only project directories
+!/agricultura-mvp/
+!/codigofacil/
+!/miniveci/
+!/pos-miniveci/
+!/veci-rapido-pos/
+!/AGENTS.md
+!/.gitignore
+!/README.md
